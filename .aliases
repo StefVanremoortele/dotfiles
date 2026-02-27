@@ -1,0 +1,47 @@
+# ~/.aliases - Shared aliases for bash and zsh
+
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias up="cd .."
+alias home="cd ~"
+
+# Listing
+alias ls="ls --color=auto"
+alias ll="ls -lh"
+alias la="ls -lAh"
+alias l="ls -CF"
+
+# Editor
+alias vi=nvim
+alias vim=nvim
+
+# Git
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git log --oneline -20"
+alias gd="git diff"
+
+# Safety
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+
+# Grep
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="egrep --color=auto"
+
+# System
+alias df="df -h"
+alias du="du -h"
+alias free="free -h"
+alias ports="ss -tulnp"
+
+# Shortcuts
+alias c="clear"
+alias h="history"
+alias q="exit"
