@@ -6,7 +6,7 @@ A one-command setup for a consistent development environment across all your ser
 
 ```bash
 # On a new server
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/dotfiles/main/bootstrap-dev-env.sh | bash
+curl -fsSL https://raw.githubusercontent.com/StefVanremoortele/dotfiles/main/bootstrap-dev-env.sh | bash
 
 # Or copy and run manually
 scp bootstrap-dev-env.sh user@newserver:~

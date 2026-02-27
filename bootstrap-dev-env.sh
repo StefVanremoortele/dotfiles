@@ -3,7 +3,7 @@
 # Bootstrap Dev Environment
 # Installs zsh, oh-my-zsh, powerlevel10k, tmux, neovim with all configs
 # 
-# Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_USER/dotfiles/main/bootstrap.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/StefVanremoortele/dotfiles/main/bootstrap-dev-env.sh | bash
 # Or:    ./bootstrap-dev-env.sh [--root]
 #
 # Options:
